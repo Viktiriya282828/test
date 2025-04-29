@@ -1,0 +1,31 @@
+.flex-container {
+    
+    display: flex;
+    /* border: 1px solid black; */
+    /* width: 300px; */
+    /* height:300px ; */
+    flex-flow: row wrap;
+}
+
+.group1 {
+    order: -1;
+}
+
+.group2 {
+    order: 1;
+
+}
+.flex-item {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    opacity: 0.8;
+
+}
+
+.color1{ background-color: aquamarine;}
+.color2 {background-color: rgb(75, 122, 13);}
+.color3 {background-color: aqua;}
+.color4 {background-color: rgb(0, 255, 0);}
+.color5 {background-color: rgb(163, 32, 120);}
+/* св-во ордер позволяет установить группу для флекс элемента,позволя тем самым переопределять его позицию внутри флекс контейнера. В качестве значения свойство принимает числовой порядок группы. К одной группе может принадлежать несколько элементов. */

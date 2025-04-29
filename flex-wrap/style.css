@@ -1,0 +1,26 @@
+.flex-container {
+    
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    height:300px ;
+    flex-wrap:wrap;
+}
+/*значение ньюрап по умолчанию которое определяет флекс конт где все элементы располагаются в одну строку при расположении в виде строк тли один столбец при расположении в стоолбик */
+.row {
+    flex-direction: row;
+}
+.flex-item {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    opacity: 0.8;
+
+}
+.color1{ background-color: aquamarine;}
+.color2 {background-color: rgb(75, 122, 13);}
+.color3 {background-color: aqua;}
+.color4 {background-color: rgb(0, 255, 0);}
+.color5 {background-color: rgb(163, 32, 120);}
+/* wrap-если элкменты не помещаются во флекс контейнер , то создается дополнительные ряды в контейнере для размещения элементов. При расположении в виде строки создаются дополнитеьные столбцы */
+/* wrap-reverse  то же самое что и значение wrap , только элементы располагаются в обратном порядке */

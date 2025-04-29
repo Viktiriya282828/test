@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-around {
+justify-content: space-around;
+}
+.flex-item {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: brown;
+
+}
+.color1{ background-color: aquamarine;}
+.color2 {background-color: rgb(75, 122, 13);}
+.color3 {background-color: aqua;}
+.color4 {background-color: rgb(0, 255, 0);}
+.color5 {background-color: rgb(163, 32, 120);}
+/* флекс элементы не используют все пространство флекс контейнера и флекс элементам требуется больше пространства чем доступно в контейнере.
+в этом случае элементы выходят за пределы контейнера */
+/* иногда мы в верстке сталкиваемся с тем, что пространство контейнера по размеру отличается от пространства необходимого ля флекс элементов, например:  */
+/* последний элемент выравни вается по правому краю */
+/* если в строке один элемент или элементы выходят за границы контейнера, то данное свойство аналогично флекс старт. В остальных случаях первый элемент выравнивается по левому краю. */
